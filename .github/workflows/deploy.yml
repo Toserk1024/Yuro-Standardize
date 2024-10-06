@@ -1,4 +1,4 @@
-name: Build and Deploy Compose Multiplatform site to Pages
+name: Build Page
 on:
   push:
     branches:
