@@ -40,7 +40,7 @@ fun Title(modifier: Modifier = Modifier) {
 @Composable
 fun Description(modifier: Modifier = Modifier) {
     Text(
-        text = "THE UNIVERSAL MESSENGER STANDARDIZE",
+        text = "This is a Test Page",
         style = MaterialTheme.typography.bodyLarge,
         textAlign = TextAlign.Center,
         modifier = modifier
@@ -55,7 +55,7 @@ fun Start() {
         elevation = ButtonDefaults.elevatedButtonElevation(16.dp, 16.dp, 16.dp, 16.dp)
     ) {
         Text(
-            text = "即刻起步",
+            text = "Start",
             style = MaterialTheme.typography.headlineSmall
         )
     }
